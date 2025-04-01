@@ -23,7 +23,7 @@ def predict_datapoint():
             size=request.form.get('size'),
             total_sqft=float(request.form.get('total_sqft')),
             price_per_sqft=float(request.form.get('price_per_sqft')),
-            bhk=request.form.get('bhk'),
+            bhk=float(request.form.get('bhk')),
             bath=float(request.form.get('bath'))
 
         )
