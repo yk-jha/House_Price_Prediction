@@ -1,8 +1,13 @@
 pandas
 numpy
-matplotlib
-setuptools
-scikit-learn
 seaborn
+matplotlib
+scikit-learn
+catboost
+xgboost
+dill
+flask
+gunicorn
+
 
 -e .
