@@ -50,7 +50,7 @@ class CustomData:
             custom_data_input_dict = {
                 "location": [self.location],
                 "size": [self.size],
-                "total_sqft": [self.total_sqftn],
+                "total_sqft": [self.total_sqft],
                 "bhk": [self.bhk],
                 "bath": [self.bath],
                 "price_per_sqft": [self.price_per_sqft],
